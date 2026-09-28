@@ -1,5 +1,6 @@
 project: screenshot-to-code-demo
-title: Screenshot to Code
+title: Screenshot to Code Docs
+showLogoDocsLabel: false
 favicon: frontend/public/favicon/main.png
 theme: system
 primaryColor: '#7c3aed'
