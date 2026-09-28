@@ -1,0 +1,44 @@
+project: screenshot-to-code-demo
+title: Screenshot to Code · Unofficial demo
+theme: system
+primaryColor: '#7c3aed'
+home:
+  title: Screenshot to Code documentation
+  description: Unofficial documentation preview prepared by Cortex from the project's existing Markdown.
+  cta:
+    label: Read the documentation
+    href: /docs/overview-and-setup
+  sections:
+    - title: Run locally
+      description: Follow the existing backend and frontend setup guide.
+      href: /docs/overview-and-setup
+      badge: Guides
+    - title: Test and evaluate
+      description: Run tests and compare model outputs.
+      href: /docs/testing-guide
+      badge: Guides
+    - title: Use docs through MCP
+      description: Read these guides from your AI client with a local documentation server.
+      href: /mcp/setup
+      badge: Local MCP
+    - title: About this demo
+      description: Source attribution, demo limitations, and instructions to reproduce this preview.
+      href: /docs/about-this-demo
+      badge: Unofficial preview
+docs:
+  - section: Getting started
+    sources:
+      - title: Overview and setup
+        document: README.md
+      - title: Troubleshooting
+        document: Troubleshooting.md
+  - section: Development
+    sources:
+      - title: Testing guide
+        document: TESTING.md
+      - title: Model evaluation
+        document: Evaluation.md
+  - section: About this preview
+    sources:
+      - title: About this demo
+        document: CORTEX_DEMO.md
