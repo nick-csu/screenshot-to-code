@@ -1,35 +1,29 @@
 project: screenshot-to-code-demo
-title: Screenshot to Code · Unofficial demo
+title: Screenshot to Code
 favicon: frontend/public/favicon/main.png
 theme: system
 primaryColor: '#7c3aed'
 home:
   title: Screenshot to Code documentation
-  description: Unofficial documentation preview prepared by Cortex from the project's existing Markdown.
+  description: Set up Screenshot to Code, troubleshoot issues, and evaluate generated code.
   cta:
-    label: Read the documentation
-    href: /docs/overview-and-setup
+    label: Getting Started
+    href: /docs/overview
   sections:
-    - title: Run locally
-      description: Follow the existing backend and frontend setup guide.
-      href: /docs/overview-and-setup
-      badge: Guides
-    - title: Test and evaluate
-      description: Run tests and compare model outputs.
-      href: /docs/testing-guide
-      badge: Guides
-    - title: Use docs through MCP
-      description: Read these guides from your AI client with a local documentation server.
+    - title: Documentation
+      description: Read the setup, troubleshooting, testing, and evaluation guides.
+      href: /docs/overview
+      badge: Docs
+      icon: cortex-assets/docs-icon.svg
+    - title: MCP Server
+      description: Connect your AI client to the project documentation.
       href: /mcp/setup
-      badge: Local MCP
-    - title: About this demo
-      description: Source attribution, demo limitations, and instructions to reproduce this preview.
-      href: /docs/about-this-demo
-      badge: Unofficial preview
+      badge: AI Agents
+      icon: cortex-assets/mcp-icon.svg
 docs:
   - section: Getting started
     sources:
-      - title: Overview and setup
+      - title: Overview
         document: README.md
       - title: Troubleshooting
         document: Troubleshooting.md
@@ -39,7 +33,3 @@ docs:
         document: TESTING.md
       - title: Model evaluation
         document: Evaluation.md
-  - section: About this preview
-    sources:
-      - title: About this demo
-        document: CORTEX_DEMO.md
